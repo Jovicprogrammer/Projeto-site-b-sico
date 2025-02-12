@@ -2,3 +2,5 @@
 Mock-up representado a ideia de um site pessoal.
 
 mais informações em breve!
+
+texto aleatório
