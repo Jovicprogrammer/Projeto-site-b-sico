@@ -1,0 +1,47 @@
+* {margin: 0; padding:0;}
+
+@font-face {
+    font-family: 'Eskargot';
+    src: url(../other_assets/ESKARGOT.ttf);
+}
+
+:root {
+    --cor0: #141313;
+    --cor1: #6E6766;
+    --cor2: #ADB5CF;
+    --cor3: #7895F3;
+    --cor4: #101526;
+    --cor5: #506094;
+    --cor6: #F4F3F2;
+    --cor7: #0F0F0F;
+    --cor8: #2E3754;
+    --cor9: #201B19;
+
+    --destaque: 'Eskargot', cursive; 
+}
+
+.moods-divs {
+    font-size: 35px;
+    font-family: var(--destaque);
+    color: var(--cor6);
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    height: 100px;
+    width: 957px;
+    background-color: var(--cor8);
+}
+
+.moods-divs:hover {
+    box-shadow: 1px 3px 5px 3px var(--cor6);
+}
+
+.text-divs {
+    margin-top: 20px;
+}
+
+.text-divs:hover {
+    font-size: 40px;
+    text-shadow: 4px 1px 4px var(--cor6);
+    transition: 0.2s;
+}

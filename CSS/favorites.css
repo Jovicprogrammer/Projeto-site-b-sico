@@ -1,0 +1,60 @@
+* { margin: 0; padding: 0; } 
+
+body {
+    display: inline-flex;
+}
+
+#movies-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+    position: absolute;
+    top: 0%;
+    left: 4.6%;
+}
+
+#movies {
+    margin-top: 10px;
+    margin-left: 5px;
+    border-style: solid;
+    border-width: 3px;
+    padding: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#double-poster {
+    display: inline-flex;
+   
+}
+
+#movie-poster {
+    height: 95px;
+}
+
+#artists-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+    position: absolute;
+    top: 0%;
+    left: 23.2%;
+}
+
+#artists {
+    margin-top: 10px;
+    border-style: solid;
+    border-width: 3px;
+    padding: 10px;
+    margin-left: 10px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#double-artist {
+    display: inline-flex;
+}
+
+.artist-image {
+    height: 80px;
+}

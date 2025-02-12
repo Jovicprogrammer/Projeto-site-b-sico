@@ -1,0 +1,125 @@
+* { margin: 0; padding: 0; } 
+
+@font-face {
+    font-family: 'Good Old DOS Smooth';
+    src: url(../other_assets/good_old_dos.ttf);
+}
+
+@font-face {
+    font-family: 'Super Funtime';
+    src: url(../other_assets/super-funtime.ttf);
+}
+
+:root {
+    --cor0: #141313;
+    --cor1: #6E6766;
+    --cor2: #ADB5CF;
+    --cor3: #7895F3;
+    --cor4: #101526;
+    --cor5: #506094;
+    --cor6: #F4F3F2;
+    --cor7: #0F0F0F;
+    --cor8: #2E3754;
+    --cor9: #201B19;
+
+    --destaque: 'Good Old DOS Smooth', cursive; 
+    --segunda: 'Super Funtime', cursive; 
+}
+
+
+body {
+    display: inline-flex;
+    width: 1000px;
+    height: 540px;
+    
+}
+
+#bck-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-height: 100%;
+    min-width: 100%;
+  }
+
+
+#welcome {
+    font-family: var(--destaque);
+    z-index: 1;
+    position: relative;
+    font-size: 40px;
+    text-align: start;
+    padding-left: 310px;
+    padding-top: 470px;
+    -webkit-animation: rainbow 8s infinite;
+    text-shadow: 3px 2px 4px rgb(3, 3, 43);
+   
+}
+
+@-webkit-keyframes rainbow{
+    0%{color: azure;}  
+    10%{color: rgb(208, 208, 255);} 
+    20%{color: rgb(176, 223, 255);}
+    30%{color: rgb(219, 221, 255);}
+    40%{color: rgb(177, 197, 255);}
+    50%{color: var(--cor6);}
+    60%{color: rgb(202, 221, 255);}
+    70%{color: ivory;}
+    80%{color: rgb(167, 212, 255);}
+    90%{color: rgb(142, 198, 255);}
+    100%{color: white;}
+  }
+  
+
+#social {
+    position: absolute;
+    left: 67%;
+    border-radius: 9px;    
+    height: 500px;
+    width: 200px;
+    background-color: var(--cor6);
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 110px;
+}
+
+#follow-h2 {
+    color: var(--cor8);
+    font-size: 25px;
+    font-family: var(--segunda);
+    text-align: center;
+    padding-top: 10px;
+}
+
+#follow-h2:hover {
+    font-size: 28px;
+}
+
+#double-social {
+    display: inline-flex;
+    padding-top: 5px;
+    margin: 10px;
+    margin-bottom: 0px;
+}
+.social-img {
+    width: 90px;
+}
+
+.social-img:hover {
+    filter: drop-shadow(0 0 0rem --cor3);
+    box-shadow: 0px 0px 2rem var(--cor3);
+    transition: 0.2s;
+}
+
+#social-2 {
+    display: inline-flex;
+    margin: 10px;
+    padding-top: 2px;
+    margin-top: 0px;
+}
+
+#little-banner {
+    width: 180px;
+    margin: 10px;
+    padding-top: 145px;
+}

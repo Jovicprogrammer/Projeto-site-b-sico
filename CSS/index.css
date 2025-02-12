@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'Eskargot';
+    src: url(../other_assets/ESKARGOT.ttf);
+}
+
+*{margin: 0; padding: 0;}
+
+
+:root {
+    --cor0: #141313;
+    --cor1: #6E6766;
+    --cor2: #ADB5CF;
+    --cor3: #7895F3;
+    --cor4: #101526;
+    --cor5: #506094;
+    --cor6: #F4F3F2;
+    --cor7: #0F0F0F;
+    --cor8: #2E3754;
+    --cor9: #201B19;
+
+    --destaque: 'Eskargot', cursive; 
+}
+
+body {
+    background-color: #070503;
+    background-repeat: repeat;
+    background-position: left top;
+    display: inline-flex;
+    
+}
+
+#bck-video {
+
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-height: 100%;
+    min-width: 100%;
+  }
+
+#header-area {
+    z-index: 1;
+    width: 1000px;
+    height: 200px;
+    background-color: #B13825;
+    margin: auto;
+    margin-top: 5px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+} 
+
+#navbar {
+    position: relative;
+    z-index: 5;
+    background-color: var(--cor3);
+    width: 160px;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 100px;
+    height: 540px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+
+}
+
+#navul {
+    justify-content:center;
+    list-style-type: none;
+    display: block;
+    gap: 20px;
+    line-height: 1.8;
+    padding-top: 25px;
+    padding-left: 35px;
+    font-family: var(--destaque);
+    font-size: 25px;
+    color: white;
+}
+
+#joviclogo {
+    height: 85px;
+    padding-top: 185px;
+    padding-left: 20px;
+}
+
+
+.nav-li {cursor: pointer; transition: 0.3s;}
+
+.nav-li:hover {
+    color: var(--cor6);
+    font-size: 27px;
+    text-shadow: 2px 1px 4px var(--cor6);
+}
+
+a:link {
+    color: var(--cor6);
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--cor6);
+}
+
+main {
+    z-index: 2;
+    margin: auto;
+    margin-top: 30px;
+    width: 1000px;
+    height: 540px;
+    background-color: var(--cor2);
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+
+}
+
+#main-iframe {
+
+    width: 1000px;
+    height: 540px;
+}
+
+#first-container {
+    display: flex;
+    justify-content: center;
+    height: 210px;
+}
+
+#welcome {
+    font-family: var(--destaque);
+    font-size: 45px;
+    font-weight: bold;
+    color:#774a77;
+    text-shadow: 3px 3px 5px white;
+    text-align: center;
+    padding: 10px;
+    
+}
